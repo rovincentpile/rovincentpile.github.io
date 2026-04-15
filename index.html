@@ -60,7 +60,7 @@ a,button,[role="button"]{transition:color var(--transition-interactive),backgrou
 .hero-eyebrow-dot{width:6px;height:6px;border-radius:var(--radius-full);background:var(--color-primary);animation:pulse-dot 2s ease-in-out infinite}
 @keyframes pulse-dot{0%,100%{opacity:1;transform:scale(1)}50%{opacity:.5;transform:scale(.75)}}
 .hero-heading{font-family:var(--font-display);font-size:var(--text-hero);font-weight:800;letter-spacing:-.03em;line-height:1.0;color:var(--color-text);margin-bottom:var(--space-3)}
-.hero-role-line{font-family:var(--font-display);font-size:clamp(1.4rem,1rem + 1.5vw,2.4rem);font-weight:800;letter-spacing:-.02em;color:var(--color-primary);margin-bottom:var(--space-6);min-height:1.25em;display:flex;align-items:center}
+.hero-role-line{font-family:var(--font-display);font-size:clamp(1.4rem,1rem + 1.5vw,2.4rem);font-weight:800;letter-spacing:-.02em;color:var(--color-primary);margin-bottom:var(--space-6);height:1.6em;overflow:hidden;display:flex;align-items:center}
 .hero-cursor{display:inline-block;width:3px;height:.85em;background:var(--color-primary);margin-left:3px;border-radius:2px;vertical-align:middle;animation:blink 1s step-end infinite}
 @keyframes blink{0%,100%{opacity:1}50%{opacity:0}}
 .hero-body{font-size:var(--text-lg);color:var(--color-text-muted);line-height:1.6;max-width:54ch;margin-bottom:var(--space-8)}
@@ -236,7 +236,7 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
       <div class="hero-role-line" aria-label="Junior Developer and IT Support Specialist">
         <span id="hero-role"></span><span class="hero-cursor" aria-hidden="true"></span>
       </div>
-      <p class="hero-body">From configuring Active Directory to deploying Laravel apps — I bridge IT operations and software development. 4+ years building real systems for government offices, BPOs, and businesses.</p>
+      <p class="hero-body">IT Support Specialist turned Junior Developer through a company-led training initiative — skilled in applying programming to build CRM systems, e-commerce platforms, and government portals that serve real users.</p>
 
       <div class="hero-ctas">
         <a href="#projects" class="btn-primary">
@@ -252,13 +252,9 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
       <div>
         <p class="resume-label">Download Resume</p>
         <div class="resume-group">
-          <a href="Rovincent%20Pile%20-%20Junior%20Developer.pdf" download class="btn-resume">
+          <a href="Rovincent%20Pile.pdf" download class="btn-resume">
             <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            Junior Developer
-          </a>
-          <a href="Rovincent%20%20Pile%20-%20Tech%20Support.pdf" download class="btn-resume">
-            <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
-            IT Support Specialist
+            Download CV
           </a>
         </div>
       </div>
@@ -267,7 +263,7 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
         <div><div class="stat-value">4+</div><div class="stat-label">Years in IT</div></div>
         <div><div class="stat-value">2</div><div class="stat-label">Roles Mastered</div></div>
         <div><div class="stat-value">Laravel</div><div class="stat-label">Core Stack</div></div>
-        <div><div class="stat-value">4</div><div class="stat-label">Certifications</div></div>
+        <div><div class="stat-value">6</div><div class="stat-label">Certifications</div></div>
       </div>
     </div>
 
@@ -307,7 +303,7 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
         <div class="skill-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg></div>
         <div class="skill-name">Backend</div>
         <div class="skill-desc">Web application development</div>
-        <div class="skill-tags"><span class="tag">PHP</span><span class="tag">Laravel</span><span class="tag">CodeIgniter 3</span><span class="tag">CodeIgniter 4</span></div>
+        <div class="skill-tags"><span class="tag">PHP</span><span class="tag">Laravel 11</span><span class="tag">Laravel 12</span><span class="tag">CodeIgniter 3</span><span class="tag">CodeIgniter 4</span></div>
       </div>
 
       <div class="skill-card reveal">
@@ -326,9 +322,9 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
 
       <div class="skill-card reveal">
         <div class="skill-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg></div>
-        <div class="skill-name">Packages &amp; APIs</div>
-        <div class="skill-desc">Libraries &amp; integrations</div>
-        <div class="skill-tags"><span class="tag">Spatie Permissions</span><span class="tag">DomPDF</span><span class="tag">Chart.js</span><span class="tag">DataTables</span></div>
+        <div class="skill-name">APIs &amp; Integrations</div>
+        <div class="skill-desc">Payments, logistics &amp; libraries</div>
+        <div class="skill-tags"><span class="tag">REST APIs</span><span class="tag">eCashPay</span><span class="tag">DragonPay</span><span class="tag">J&amp;T Express API</span><span class="tag">Spatie Permissions</span><span class="tag">DomPDF</span></div>
       </div>
 
       <div class="skill-card reveal">
@@ -342,7 +338,7 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
         <div class="skill-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="3"/><path d="M19.07 4.93a10 10 0 0 1 0 14.14M4.93 4.93a10 10 0 0 0 0 14.14"/></svg></div>
         <div class="skill-name">Dev Tools</div>
         <div class="skill-desc">Workflow &amp; deployment</div>
-        <div class="skill-tags"><span class="tag">Git</span><span class="tag">Vite</span><span class="tag">VS Code</span><span class="tag">Linux CLI</span><span class="tag">XAMPP</span></div>
+        <div class="skill-tags"><span class="tag">Git</span><span class="tag">VS Code</span><span class="tag">XAMPP</span><span class="tag">Linux CLI</span><span class="tag">Claude Code</span><span class="tag">GitHub Copilot</span></div>
       </div>
 
     </div>
@@ -505,42 +501,41 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
 
       <div class="timeline-item reveal">
         <div class="timeline-dot timeline-dot--current" aria-hidden="true"></div>
-        <p class="timeline-period">2025 — Present</p>
-        <h3 class="timeline-title">Consultant · Web Developer</h3>
-        <p class="timeline-company">Freelance / Contract</p>
-        <p class="timeline-desc">Consulting on Laravel-based projects — government portals, e-commerce platforms, and barangay management systems.</p>
-        <ul class="timeline-bullets">
-          <li>Contributing to NextDrop (nextdrop.com.ph) — live Laravel e-commerce platform</li>
-          <li>Building government digital systems for barangay and congressional offices</li>
-          <li>Feature development, bug fixing, and performance improvements</li>
-        </ul>
-      </div>
-
-      <div class="timeline-item reveal">
-        <div class="timeline-dot" aria-hidden="true"></div>
         <p class="timeline-period">Jan 2025 — Mar 2026</p>
         <h3 class="timeline-title">Junior Software Developer</h3>
-        <p class="timeline-company">Slashdotph Inc. · MIS Team</p>
-        <p class="timeline-desc">Promoted from IT Support through an internal development program. Maintained and enhanced CRM systems and business applications for a BPO client.</p>
+        <p class="timeline-company">SLASHDOTPH Corporation · MIS Team</p>
+        <p class="timeline-desc">Promoted from IT Support through a company-led training initiative. Maintained and enhanced CRM systems and internal business applications supporting 50+ daily users.</p>
         <ul class="timeline-bullets">
-          <li>Maintained and enhanced CRM systems and internal reporting tools</li>
-          <li>Built custom modules, debugged systems, and improved feature reliability</li>
-          <li>Collaborated with developers on feature development and code reviews</li>
-          <li>Documented technical changes and tracked issues through the full lifecycle</li>
+          <li>Maintained and enhanced CRM systems using PHP (CodeIgniter 3 &amp; 4, Laravel) and MySQL</li>
+          <li>Collaborated with cross-functional teams on feature development, code review, debugging, and QA testing</li>
+          <li>Documented technical changes and tracked issues through the full development lifecycle</li>
         </ul>
       </div>
 
       <div class="timeline-item reveal">
         <div class="timeline-dot" aria-hidden="true"></div>
-        <p class="timeline-period">Mar 2022 — Dec 2024</p>
+        <p class="timeline-period">Jan 2025 — Dec 2025</p>
+        <h3 class="timeline-title">Web Developer (Consultant)</h3>
+        <p class="timeline-company">Wealthy Lifestyle Inc.</p>
+        <p class="timeline-desc">Designed and developed NextDrop (nextdrop.com.ph), a live multi-category Philippine e-commerce platform — delivered end-to-end from requirements gathering to deployment.</p>
+        <ul class="timeline-bullets">
+          <li>Built full buyer/seller experience with cart, wishlist, real-time order tracking, and seller subscription management using Laravel, MySQL, and Bootstrap</li>
+          <li>Integrated third-party payment gateways (eCashPay, DragonPay) for seamless online transaction processing</li>
+          <li>Managed client communication, timelines, and revisions independently</li>
+        </ul>
+      </div>
+
+      <div class="timeline-item reveal">
+        <div class="timeline-dot" aria-hidden="true"></div>
+        <p class="timeline-period">Mar 2022 — Dec 2025</p>
         <h3 class="timeline-title">IT Support Specialist</h3>
-        <p class="timeline-company">Slashdotph Inc. (iConnect-Convergence Inc. / ABS-CBN BPO)</p>
+        <p class="timeline-company">SLASHDOTPH Corporation (iConn-Convergence Inc. / ABS-CBN BPO)</p>
         <p class="timeline-desc">Level 1/2 IT support in a high-volume BPO environment — hardware, software, and network troubleshooting for hundreds of agents.</p>
         <ul class="timeline-bullets">
-          <li>Managed ticketing systems (iServe, JIRA) and provided remote/on-site support</li>
-          <li>Handled workstation setup and deployment for new hires</li>
-          <li>Administered user accounts via Active Directory and corporate email</li>
-          <li>Maintained inventory, documentation, and accountability reports</li>
+          <li>Managed and resolved 100+ support tickets monthly using iServe and JIRA, consistently maintaining SLA compliance</li>
+          <li>Administered user accounts and permissions via Active Directory for 100+ employees</li>
+          <li>Handled end-to-end workstation setup and deployment for new hire onboarding</li>
+          <li>Coordinated VoIP system setup and bridged IT and dev workflows</li>
         </ul>
       </div>
 
@@ -556,15 +551,24 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
     <div class="section-header">
       <p class="section-label">Credentials</p>
       <h2 class="section-title" id="certs-heading">Certifications</h2>
-      <p class="section-body">Four certifications completed in 2024 covering IT support, hardware, and Microsoft infrastructure.</p>
+      <p class="section-body">Six certifications covering IT support, hardware, Microsoft systems administration, and AI fundamentals.</p>
     </div>
     <div class="certs-grid">
 
       <div class="cert-card reveal">
-        <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="8" r="6"/><path d="M15.477 12.89 17 22l-5-3-5 3 1.523-9.11"/></svg></div>
+        <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 8v4l3 3"/></svg></div>
         <div>
-          <div class="cert-name">Google IT Support Professional</div>
-          <div class="cert-issuer">Google / Coursera</div>
+          <div class="cert-name">Microsoft AI Course: Azure AI Fundamentals</div>
+          <div class="cert-issuer">TESDA Online Program</div>
+          <div class="cert-year">2026</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div>
+          <div class="cert-name">Microsoft Applied Skills: Administer Active Directory Domain Services</div>
+          <div class="cert-issuer">Microsoft Learn</div>
           <div class="cert-year">2024</div>
         </div>
       </div>
@@ -572,17 +576,26 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
       <div class="cert-card reveal">
         <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2" ry="2"/><line x1="8" y1="21" x2="16" y2="21"/><line x1="12" y1="17" x2="12" y2="21"/></svg></div>
         <div>
-          <div class="cert-name">CompTIA A+ Certification</div>
+          <div class="cert-name">Core 1: Hardware and Network Troubleshooting (CompTIA)</div>
           <div class="cert-issuer">IBM / Coursera</div>
           <div class="cert-year">2024</div>
         </div>
       </div>
 
       <div class="cert-card reveal">
-        <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg></div>
+        <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="8" rx="2" ry="2"/><rect x="2" y="14" width="20" height="8" rx="2" ry="2"/><line x1="6" y1="6" x2="6.01" y2="6"/><line x1="6" y1="18" x2="6.01" y2="18"/></svg></div>
         <div>
-          <div class="cert-name">Microsoft Applied Skills: Active Directory</div>
-          <div class="cert-issuer">Microsoft Learn</div>
+          <div class="cert-name">Installing and Configuring Computer Systems</div>
+          <div class="cert-issuer">TESDA Online Program</div>
+          <div class="cert-year">2024</div>
+        </div>
+      </div>
+
+      <div class="cert-card reveal">
+        <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg></div>
+        <div>
+          <div class="cert-name">Maintaining Computer Systems and Networks</div>
+          <div class="cert-issuer">TESDA Online Program</div>
           <div class="cert-year">2024</div>
         </div>
       </div>
@@ -590,9 +603,9 @@ section{padding-block:clamp(var(--space-12),8vw,var(--space-20))}
       <div class="cert-card reveal">
         <div class="cert-icon" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg></div>
         <div>
-          <div class="cert-name">Computer Hardware &amp; Servicing NC II</div>
-          <div class="cert-issuer">TESDA Guiguinto</div>
-          <div class="cert-year">2024</div>
+          <div class="cert-name">Computer Hardware Servicing NC II</div>
+          <div class="cert-issuer">TESDA / Philcomtech Balagtas Inc.</div>
+          <div class="cert-year">2012</div>
         </div>
       </div>
 
